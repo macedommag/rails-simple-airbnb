@@ -22,15 +22,4 @@ ActiveRecord::Schema.define(version: 2022_06_27_224234) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "simples", force: :cascade do |t|
-    t.string "Airbnb"
-    t.string "name"
-    t.string "address"
-    t.text "description"
-    t.integer "price_per_night"
-    t.integer "number_of_guests"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
 end
